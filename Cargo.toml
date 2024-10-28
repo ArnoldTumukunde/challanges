@@ -1,0 +1,10 @@
+[package]
+name = "challanges"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.210", features = ["derive"]}
+serde_json = "1.0.132"
+anyhow = "1.0.90"
+uuid = {version = "1.11.0", features = ["v4", "fast-rng", "macro-diagnostics"]}
